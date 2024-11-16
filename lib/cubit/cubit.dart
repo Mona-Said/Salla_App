@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:salla/cubit/states.dart';
-
+import 'package:salla/models/change_favorites_model.dart';
+import 'package:salla/models/login_model.dart';
 import '../models/categories_model.dart';
-import '../models/change_favorites_model.dart';
 import '../models/get_favorites_model.dart';
 import '../models/home_model.dart';
-import '../models/login_model.dart';
 import '../modules/categories/categories_screen.dart';
 import '../modules/favorites/favorites_screen.dart';
 import '../modules/products/products_screen.dart';
